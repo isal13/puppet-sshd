@@ -1,0 +1,7 @@
+name         'isal13-sshd'
+version      'RELEASE_1.0.0'
+summary      'Install and configure sshd.'
+description  'Install and configure sshd.'
+author       'isal13'
+project_page 'https://github.com/isal13/puppet-sshd'
+license      'Apache License, Version 2.0'

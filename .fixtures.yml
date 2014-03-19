@@ -1,0 +1,5 @@
+fixtures:
+  repositories:
+    # put any forge module dependencies here
+  symlinks:
+    sshd: "#{source_dir}"

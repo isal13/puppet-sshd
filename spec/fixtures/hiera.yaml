@@ -1,0 +1,12 @@
+--- 
+  !ruby/sym backends: 
+    - yaml
+  !ruby/sym yaml: 
+    !ruby/sym datadir: /home/skorten/git/sshd/spec/fixtures/modules/hieradata
+  !ruby/sym hierarchy: 
+    - "fqdn/%{::fqdn}"
+    - "application/%{::application}/%{::env_type}/%{::application_component}"
+    - "application/%{::application}/%{::env_type}"
+    - "application/%{::application}"
+    - "datacenter/%{::datacenter}"
+    - common
